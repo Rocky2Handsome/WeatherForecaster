@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<!DOCTYPE>
+<head>
+	<title>Weather App</title>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+	<link href="image/snowflake.png" rel="shortcut icon" type="image/x-icon">
+</head>
+</body>
+<div class="Back">
+<center>
+  <div class="property-card">
+  	<section class="top-box">
+          <div class="container">
+          	<form class="search">
+          		<br><br>
+    		<ul class="card"><br>
+    			<input type="text" placeholder="Mumbai" autofocus>
+      			<button type="submit">
+      				<img src="image/search.png"></button>
+      				<br><br>
+      			<span class="msg"></span>
+      		</ul>
+      		</form>
+		  </div>
+  			</section>
+  			<section class="ajax-section">
+  		<div class="container">
+    	<ul class="cities" ></ul>
+  </div>
+</section>
+		</div>
+		<div class="bot">
+		<p>Enter the city name or code for weather report of</p>
+        <div class="msgs" id="datetime">
+		</div>
+        
+	</div>
+	<div onload="gettime()">
+		<span id="timer"></span>	
+	</div>
+	</div>
+	
+  </center>
+  <div class="banner">
+  <label class="bottom">Developed and Designed by <a href="https://allaboutshivapandey.web.app/" target="_blank">Shiva Pandey</a></label>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+<body>
+	</html>
